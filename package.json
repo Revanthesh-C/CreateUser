@@ -1,0 +1,26 @@
+{
+  "name": "create_user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w & nodemon dist/user.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/pg": "^8.11.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-pool": "^3.6.2",
+    "zod": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
+}
