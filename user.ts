@@ -7,10 +7,7 @@ app.use(express.json())
 
 console.log(new Date())
 
-let arr = [{a:'x',b:'y'},{c:'z',d:'a'}]
-console.log(arr.map((element:Object) =>{
-    return arr[0].a;
-}))
+
 
 
 app.listen(3000, () => {
